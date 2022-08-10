@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(12, 72, 150);
+}
+
+main {
+    background-color: white;
+    width: 75%;
+    margin: 5.5rem auto;
+    border-radius: 5px;
+    padding: 2.5rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    padding: 2rem;
+}
+
+section:hover {
+    background-color: rgb(190, 190, 206);
+}
+
+img {
+    width: 5rem;
+}
+
+h2 {
+    margin-top: 2.5rem;
+    color: darkblue;
+}
+
+p {
+    margin-top: 1.5rem;
+    color: black;
+    opacity: 0.5;
+}
+
+.price {
+    margin-top: 1.5rem;
+    color: rgb(31, 31, 231);
+}
+
+.big {
+    font-size: 2rem;
+}
